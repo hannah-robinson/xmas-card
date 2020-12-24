@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 7rem;
+  color: #fff;
+  padding: 2rem;
+  background-color: rgba(0, 100, 0, 0.616);
+  border-radius: 50px;
+}
+
+i {
+  font-size: 7rem;
+  color: #fff;
+  padding: 2rem;
+}
+
+.section {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-size: cover;
+}
+
+.iframe-wrapper {
+  background-color: #000;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+  transition: 1s;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.photo-link {
+  width: 560px;
+  height: 315px;
+  display: grid;
+  place-content: center;
+  background-size: cover;
+}
+
+#elton {
+  background-image: url(./images/elton-thumb.jpg);
+  text-align: center;
+}
+
+#ode {
+  background-image: url(./images/ode.jpg);
+  text-align: center;
+}
+
+#bocelli {
+  background-image: url(./images/bocelli-thumb.jpg);
+  text-align: center;
+}
+
+#section-1 {
+  background-image: url(./images/book-tree.jpg);
+  text-align: center;
+}
+
+#section-2 {
+  background-image: url(./images/red-stars.jpg);
+}
+
+#section-3 {
+  background-image: url(./images/spruce.jpg);
+}
+
+#section-4 {
+  background-image: url(./images/pointsettia.jpg);
+}
+
+#section-5 {
+  background-image: url(./images/tree-baubles.jpg);
+}
+
+#section-6 {
+  background-image: url(./images/bokeh-red.jpg);
+}
+
+#section-7 {
+  background-image: url(./images/green-and-gold.jpg);
+}
+
+#section-8 {
+  background-image: url(./images/over-santas-shoulder.jpg);
+}
